@@ -8,7 +8,7 @@
 <!-- display your image inline here -->
 
 
-## Release 1: One to Many Schema
+## Release 1: One too Many Schema
 <!-- display your image inline here -->
 
 
@@ -16,7 +16,7 @@
 <!-- display your image inline here -->
 
 
-## Release 3: Many to Many Schema
+## Release 3: Many too Many Schema
 <!-- display your image inline here -->
 
 
