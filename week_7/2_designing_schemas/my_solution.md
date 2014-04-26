@@ -5,28 +5,24 @@
 
 
 ## Release 0: Student Roster Schema
-!(https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/student_database.jpg
-)
+![roster](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/student_database.jpg?raw=true)
 
 ## Release 1: One to Many Schema
-!(https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/one_to_many.jpg
-)
+![one to many](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/one_to_many.jpg?raw=true)
 
 ## Release 2: One to One Schema
-!(https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/one_to_one.jpg
-)
+![one to one](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/one_to_one.jpg?raw=true)
 
 ## Release 3: Many to Many Schema
-!(https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/many_to_many.jpg
-)
+![many to many](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/many_to_many.jpg?raw=true)
 
 ## Release 4: Design your own Schema
 Description of what you're modeling: 
 The first model is just pulling bacon into breakfast
 The second model builds a sandwich
-!(https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/bacon.jpg)
+![first](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/bacon.jpg?raw=true)
 
-!(https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/my_db.jpg)
+![second](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_7/images/my_db.jpg?raw=true)
 
 ## Release 5: Reflection
 What parts of your strategy worked? What problems did you face?
