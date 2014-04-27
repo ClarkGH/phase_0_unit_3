@@ -2,35 +2,35 @@
 
 ## Release 0: Users Fields
 <!-- Identify the fields Twitter collects data for -->
-##User Image
-##Twitter ID
-##Description
-##Website
-##Location
-##Date Joined
-##Tweets
-##Following
-##Followers
-##Favorites
-##Lists
-##Photos and Videos
+User Image
+Twitter ID
+Description
+Website
+Location
+Date Joined
+Tweets
+Following
+Followers
+Favorites
+Lists
+Photos and Videos
 
 ## Release 1: Tweet Fields
 <!-- Identify the fields Twitter uses to represent/display a tweet. What are you required or allowed to enter? -->
-##User ID
-##140 characters
-##Photo
-##Video
-##Location
-##Links
+User ID
+140 characters
+Photo
+Video
+Location
+Links
 
 ## Release 2: Explain the relationship
 The relationship between `users` and `tweets` is: 
 <!-- because... -->
 
-##The relationship between users and their personal tweets are one to many. A single user can have many tweets.
+The relationship between users and their personal tweets are one to many. A single user can have many tweets.
 
-##When someone retweets it becomes many to many. One user can tweet something, but once it is retweeted, it becomes many to many since it is now associated with multiple users. For the sake of the exercise, I'm not going to overcomplicate things with retweets.
+When someone retweets it becomes many to many. One user can tweet something, but once it is retweeted, it becomes many to many since it is now associated with multiple users. For the sake of the exercise, I'm not going to overcomplicate things with retweets.
 
 ## Release 3: Schema Design
 <!-- Include your image (inline) of your schema -->
