@@ -87,4 +87,4 @@ It was very interesting going into this challenge. I really enjoyed it.
 
 Which parts of the challenge did you find tedious?
 
-None
+None. I made my cheatsheet and had no issues.

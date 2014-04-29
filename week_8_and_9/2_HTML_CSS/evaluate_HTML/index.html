@@ -1,0 +1,953 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <link href="news.css" rel="stylesheet" type="text/css">
+  <link href="favicon.ico" rel="shortcut icon">
+  <script type="text/javascript">
+    function byId(id) {
+    return document.getElementById(id);
+    }
+
+    function vote(node) {
+    var v = node.id.split(/_/);   // {'up', '123'}
+    var item = v[1];
+
+    // hide arrows
+    byId('up_'   + item).style.visibility = 'hidden';
+    byId('down_' + item).style.visibility = 'hidden';
+
+    // ping server
+    var ping = new Image();
+    ping.src = node.href;
+
+    return false; // cancel browser nav
+    } 
+  </script>
+
+  <title>Hacker News</title>
+</head>
+
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" style=
+  "background-color: #F6F6EF" width="85%">
+    <tr>
+      <td style="background-color: #FF6600">
+        <table border="0" cellpadding="0" cellspacing="0" style="padding:2px"
+        width="100%">
+          <tr>
+            <td style="width:18px;padding-right:4px"><a href=
+            "http://ycombinator.com"><img height="18" src="y18.gif" style=
+            "border:1px #ffffff solid;" width="18"></a></td>
+
+            <td style="line-height:12pt; height:10px;"><span class=
+            "pagetop"><b><a href="news">Hacker News</a></b><img height="1" src=
+            "s.gif" width="10"><a href="newest">new</a> | <a href=
+            "newcomments">comments</a> | <a href="ask">ask</a> | <a href=
+            "jobs">jobs</a> | <a href="submit">submit</a></span></td>
+
+            <td style="text-align:right;padding-right:4px;"><span class=
+            "pagetop"><a href=
+            "newslogin?whence=%6e%65%77%73">login</a></span></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr style="height:10px">
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="right" class="title" valign="top">1.</td>
+
+            <td>
+              <a href="vote?for=7660161&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660161" name="up_7660161"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660161"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://blogs.skype.com/2014/04/28/skype-loves-bringing-groups-together-with-free-group-video-calling/">
+            Skype group video calling becomes free</a> <span class=
+            "comhead">(skype.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660161">117 points</span> by
+            <a href="user?id=Siyfion">Siyfion</a> 2 hours ago | <a href=
+            "item?id=7660161">69 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">2.</td>
+
+            <td>
+              <a href="vote?for=7660714&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660714" name="up_7660714"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660714"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://davidhsiehlo.com/blog/2014/04/27/digitalocean-droplets-manager-OSX/">
+            Digital Ocean droplets manager for OS X</a> <span class=
+            "comhead">(davidhsiehlo.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660714">43 points</span> by
+            <a href="user?id=Deivuh">Deivuh</a> 1 hour ago | <a href=
+            "item?id=7660714">7 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">3.</td>
+
+            <td>
+              <a href="vote?for=7659524&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659524" name="up_7659524"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659524"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://googleblog.blogspot.com/2014/04/the-latest-chapter-for-self-driving-car.html">
+            The latest chapter for the self-driving car: mastering city street
+            driving</a> <span class=
+            "comhead">(googleblog.blogspot.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659524">128 points</span> by
+            <a href="user?id=mgw">mgw</a> 4 hours ago | <a href=
+            "item?id=7659524">184 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">4.</td>
+
+            <td>
+              <a href="vote?for=7660924&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660924" name="up_7660924"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660924"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://jozefg.bitbucket.org/posts/2013-08-23-leaving-go.html">Leaving
+            Go</a> <span class="comhead">(bitbucket.org)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660924">88 points</span> by
+            <a href="user?id=beNjiox">beNjiox</a> 1 hour ago | <a href=
+            "item?id=7660924">63 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">5.</td>
+
+            <td>
+              <a href="vote?for=7658459&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658459" name="up_7658459"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658459"></span><br>
+            </td>
+
+            <td class="title"><a href="http://blog.tjll.net/ssh-kung-fu/">SSH
+            Kung Fu</a> <span class="comhead">(tjll.net)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658459">322 points</span> by
+            <a href="user?id=stasel">stasel</a> 11 hours ago | <a href=
+            "item?id=7658459">96 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">6.</td>
+
+            <td>
+              <a href="vote?for=7660385&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660385" name="up_7660385"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660385"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.mysqlperformanceblog.com/2014/04/28/oom-relation-vm-swappiness0-new-kernel/">
+            OOM relation to vm.swappiness=0 in new kernel</a> <span class=
+            "comhead">(mysqlperformanceblog.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660385">25 points</span> by
+            <a href="user?id=tinplate">tinplate</a> 2 hours ago | <a href=
+            "item?id=7660385">7 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">7.</td>
+
+            <td></td>
+
+            <td class="title"><a href=
+            "https://www.firebase.com/jobs/dev-evangelist.html" rel=
+            "nofollow">Firebase (YC S11) is hiring Developer Evangelists in
+            SF</a> <span class="comhead">(firebase.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext">4 minutes ago</td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">8.</td>
+
+            <td>
+              <a href="vote?for=7658864&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658864" name="up_7658864"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658864"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://honnibal.wordpress.com/2013/12/18/a-simple-fast-algorithm-for-natural-language-dependency-parsing/">
+            Parsing English with 500 lines of Python (2013)</a> <span class=
+            "comhead">(honnibal.wordpress.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658864">183 points</span> by
+            <a href="user?id=adamnemecek">adamnemecek</a> 8 hours ago |
+            <a href="item?id=7658864">47 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">9.</td>
+
+            <td>
+              <a href="vote?for=7660785&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660785" name="up_7660785"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660785"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.theatlanticcities.com/technology/2014/04/first-look-how-googles-self-driving-car-handles-city-streets/8977/">
+            A First Look at How Google's Self-Driving Car Handles City
+            Streets</a> <span class=
+            "comhead">(theatlanticcities.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660785">12 points</span> by
+            <a href="user?id=jbredeche">jbredeche</a> 1 hour ago | <a href=
+            "item?id=7660785">9 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">10.</td>
+
+            <td>
+              <a href="vote?for=7659777&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659777" name="up_7659777"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659777"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://nprchives.tumblr.com/post/84119269701/a-memo-from-20-years-ago-today-key-quote-the">
+            Internet at NPR (1994)</a> <span class=
+            "comhead">(nprchives.tumblr.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659777">35 points</span> by
+            <a href="user?id=rbanffy">rbanffy</a> 3 hours ago | <a href=
+            "item?id=7659777">18 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">11.</td>
+
+            <td>
+              <a href="vote?for=7660488&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660488" name="up_7660488"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660488"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.us-cert.gov/ncas/current-activity/2014/04/28/Microsoft-Internet-Explorer-Use-After-Free-Vulnerability-Being">
+            US-CERT recommends not using IE until use-after-free vulnerability
+            is fixed</a> <span class="comhead">(us-cert.gov)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660488">83 points</span> by
+            <a href="user?id=sajal83">sajal83</a> 2 hours ago | <a href=
+            "item?id=7660488">39 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">12.</td>
+
+            <td>
+              <a href="vote?for=7660828&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660828" name="up_7660828"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660828"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.openculture.com/2014/04/j-r-r-tolkien-snubs-a-german-publisher.html">
+            Tolkien Snubs a German Publisher Asking for Proof of His “Aryan
+            Descent” (1938)</a> <span class=
+            "comhead">(openculture.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660828">46 points</span> by
+            <a href="user?id=arnauddri">arnauddri</a> 1 hour ago | <a href=
+            "item?id=7660828">14 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">13.</td>
+
+            <td>
+              <a href="vote?for=7659363&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659363" name="up_7659363"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659363"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://opensoul.org/2014/04/28/failure/">Lessons learned from a
+            cancelled project</a> <span class=
+            "comhead">(opensoul.org)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659363">49 points</span> by
+            <a href="user?id=bkeepers">bkeepers</a> 5 hours ago | <a href=
+            "item?id=7659363">12 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">14.</td>
+
+            <td>
+              <a href="vote?for=7659007&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659007" name="up_7659007"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659007"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "https://data.linz.govt.nz/x/vuozYk">Aerial Imagery of 95% of New
+            Zealand released under open license</a> <span class=
+            "comhead">(linz.govt.nz)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659007">82 points</span> by
+            <a href="user?id=polemic">polemic</a> 7 hours ago | <a href=
+            "item?id=7659007">10 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">15.</td>
+
+            <td>
+              <a href="vote?for=7659394&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659394" name="up_7659394"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659394"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://stephenhaunts.com/2014/04/28/cross-platform-development-with-mono/">
+            Cross Platform Development with Mono</a> <span class=
+            "comhead">(stephenhaunts.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659394">40 points</span> by
+            <a href="user?id=stevehaunts">stevehaunts</a> 5 hours ago |
+            <a href="item?id=7659394">38 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">16.</td>
+
+            <td>
+              <a href="vote?for=7661131&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7661131" name="up_7661131"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7661131"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.bothsidesofthetable.com/2014/04/27/some-reflections-on-vc-investment-decisions/"
+            rel="nofollow">Some Reflections on VC Investment Decisions</a>
+            <span class="comhead">(bothsidesofthetable.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7661131">4 points</span> by
+            <a href="user?id=elobrien">elobrien</a> 35 minutes ago | <a href=
+            "item?id=7661131">discuss</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">17.</td>
+
+            <td>
+              <a href="vote?for=7659405&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659405" name="up_7659405"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659405"></span><br>
+            </td>
+
+            <td class="title"><a href="https://github.com/emre/storm?2014">A
+            command line tool to manage your ssh config file</a> <span class=
+            "comhead">(github.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659405">36 points</span> by
+            <a href="user?id=batuhanicoz">batuhanicoz</a> 5 hours ago |
+            <a href="item?id=7659405">7 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">18.</td>
+
+            <td>
+              <a href="vote?for=7660476&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7660476" name="up_7660476"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7660476"></span><br>
+            </td>
+
+            <td class="title"><a href="http://livingwithlag.com/">Living with
+            Lag [video]</a> <span class=
+            "comhead">(livingwithlag.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7660476">37 points</span> by
+            <a href="user?id=diafygi">diafygi</a> 2 hours ago | <a href=
+            "item?id=7660476">7 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">19.</td>
+
+            <td>
+              <a href="vote?for=7659417&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659417" name="up_7659417"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659417"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://stackoverflow.com/questions/8479058/how-do-i-find-waldo-with-mathematica?repost_to_hn_because_the_last_discussion_was_861_days_ago=true">
+            How do I find Waldo with Mathematica?</a> <span class=
+            "comhead">(stackoverflow.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659417">27 points</span> by
+            <a href="user?id=sillysaurus3">sillysaurus3</a> 5 hours ago |
+            <a href="item?id=7659417">10 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">20.</td>
+
+            <td>
+              <a href="vote?for=7658551&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658551" name="up_7658551"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658551"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://nautil.us/issue/12/feedback/ants-swarm-like-brains-think">Ants
+            swarm like brains think</a> <span class=
+            "comhead">(nautil.us)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658551">97 points</span> by
+            <a href="user?id=dang">dang</a> 10 hours ago | <a href=
+            "item?id=7658551">33 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">21.</td>
+
+            <td>
+              <a href="vote?for=7659033&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659033" name="up_7659033"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659033"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://blog.cloudflare.com/searching-for-the-prime-suspect-how-heartbleed-leaked-private-keys">
+            How Heartbleed Leaked Private Keys</a> <span class=
+            "comhead">(cloudflare.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659033">50 points</span> by
+            <a href="user?id=jgrahamc">jgrahamc</a> 7 hours ago | <a href=
+            "item?id=7659033">17 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">22.</td>
+
+            <td>
+              <a href="vote?for=7659931&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659931" name="up_7659931"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659931"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://dsploit.net/2014/04/28/dsploit-scam-and-the-guy-who-made-our-small-income-gone-forever/">
+            DSploit Scam and the Guy Who Made Our Small Income Gone Forever</a>
+            <span class="comhead">(dsploit.net)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659931">115 points</span> by
+            <a href="user?id=evilsocket">evilsocket</a> 3 hours ago | <a href=
+            "item?id=7659931">57 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">23.</td>
+
+            <td>
+              <a href="vote?for=7658602&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658602" name="up_7658602"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658602"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://bl.ocks.org/mbostock/11363008">Color Flood: Wilson's
+            Algorithm</a> <span class="comhead">(ocks.org)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658602">85 points</span> by
+            <a href="user?id=dsilver">dsilver</a> 10 hours ago | <a href=
+            "item?id=7658602">23 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">24.</td>
+
+            <td>
+              <a href="vote?for=7661251&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7661251" name="up_7661251"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7661251"></span><br>
+            </td>
+
+            <td class="title"><a href="item?id=7661251">Ask HN: What's on your
+            desk?</a></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7661251">6 points</span> by
+            <a href="user?id=lookup">lookup</a> 20 minutes ago | <a href=
+            "item?id=7661251">10 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">25.</td>
+
+            <td>
+              <a href="vote?for=7659726&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7659726" name="up_7659726"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7659726"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "https://www.youtube.com/watch?v=UwoGsCAKsxU">Nissan's
+            ‘Self-Cleaning’ Car Prototype [video]</a> <span class=
+            "comhead">(youtube.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7659726">74 points</span> by
+            <a href="user?id=relampago">relampago</a> 3 hours ago | <a href=
+            "item?id=7659726">56 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">26.</td>
+
+            <td>
+              <a href="vote?for=7658414&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658414" name="up_7658414"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658414"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://blog.sethroberts.net/2014/04/27/seth/">Seth Roberts has
+            died</a> <span class="comhead">(sethroberts.net)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658414">131 points</span> by
+            <a href="user?id=martharotter">martharotter</a> 11 hours ago |
+            <a href="item?id=7658414">81 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">27.</td>
+
+            <td>
+              <a href="vote?for=7658237&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658237" name="up_7658237"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658237"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.silota.com/site-search-blog/must-have-api-client/">Your
+            REST API should come with a client</a> <span class=
+            "comhead">(silota.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658237">86 points</span> by
+            <a href="user?id=gane5h">gane5h</a> 12 hours ago | <a href=
+            "item?id=7658237">71 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">28.</td>
+
+            <td>
+              <a href="vote?for=7657571&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7657571" name="up_7657571"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7657571"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.buzzfeed.com/chrisstokelwalker/the-internet-is-being-protected-by-two-guys-named-st">
+            The Internet Is Being Protected By Two Guys Named Steve</a>
+            <span class="comhead">(buzzfeed.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7657571">145 points</span> by
+            <a href="user?id=smacktoward">smacktoward</a> 17 hours ago |
+            <a href="item?id=7657571">81 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">29.</td>
+
+            <td>
+              <a href="vote?for=7658242&amp;dir=up&amp;whence=%6e%65%77%73" id=
+              "up_7658242" name="up_7658242"></a>
+
+              <div class="votearrow" title="upvote"></div><span id=
+              "down_7658242"></span><br>
+            </td>
+
+            <td class="title"><a href=
+            "http://www.nytimes.com/2014/04/28/business/still-starting-up.html">
+            Still Starting Up</a> <span class=
+            "comhead">(nytimes.com)</span></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext"><span id="score_7658242">73 points</span> by
+            <a href="user?id=daegloe">daegloe</a> 12 hours ago | <a href=
+            "item?id=7658242">45 comments</a></td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td align="right" class="title" valign="top">30.</td>
+
+            <td></td>
+
+            <td class="title"><a href="item?id=7660013">Lob is hiring its first
+            Growth Engineer</a></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="subtext">3 hours ago</td>
+          </tr>
+
+          <tr style="height:5px">
+            <td></td>
+          </tr>
+
+          <tr style="height:10px">
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"></td>
+
+            <td class="title"><a href="news2">More</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <img height="10" src="s.gif" width="0">
+
+        <table cellpadding="1" cellspacing="0" width="100%">
+          <tr>
+            <td style="background-color: #FF6600"></td>
+          </tr>
+        </table><br>
+        <span class="yclinks"><a href="lists">Lists</a> | <a href="rss">RSS</a>
+        | <a href="http://ycombinator.com/bookmarklet.html">Bookmarklet</a> |
+        <a href="http://ycombinator.com/newsguidelines.html">Guidelines</a> |
+        <a href="http://ycombinator.com/newsfaq.html">FAQ</a> | <a href=
+        "dmca.html">DMCA</a> | <a href=
+        "http://ycombinator.com/newsnews.html">News News</a> | <a href=
+        "item?id=363">Feature Requests</a> | <a href=
+        "https://github.com/HackerNews/HN/issues">Bugs</a> | <a href=
+        "http://ycombinator.com">Y Combinator</a> | <a href=
+        "http://ycombinator.com/apply.html">Apply</a> | <a href=
+        "http://ycombinator.com/lib.html">Library</a></span><br>
+        <br>
+
+        <form action="//hn.algolia.com/" method="get">
+          Search: <input name="q" size="17" type="text" value="">
+        </form><br>
+        <br>
+      </td>
+    </tr>
+  </table><br>
+</body>
+</html>
