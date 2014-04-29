@@ -11,12 +11,7 @@ I worked on this challenge [by myself, with:]
 
 */
 
-var students = ["Joseph", "Susan", "William", "Elizabeth"]
 
-var scores = [ [80, 70, 70, 100],
-               [85, 80, 90, 90],
-               [75, 70, 80, 75],
-               [100, 90, 95, 85] ]
 
 
 
