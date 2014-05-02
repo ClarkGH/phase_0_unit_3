@@ -87,6 +87,15 @@ assert {is_fibonacci?(random_fibonacci+100) == false}
 
 # Did you learn any new skills or tricks?
 	#see above. I feel great about it.
+	# I did see Kevin Kang's code, which is a lot better than mine, I liked it a lot.
+# def is_fibonacci?(num)
+#   fibs = [0,1]
+#   while fibs[-1] < num #make sure I go up to high number
+#     fibs << fibs[-1] + fibs[-2]  
+#   end
+#   return fibs.include?(num)
+# end
+	#I recommend leaving him feedback on his work.
 
 # How confident are you with each of the Learning Competencies?
 	#I am getting better at coding.
