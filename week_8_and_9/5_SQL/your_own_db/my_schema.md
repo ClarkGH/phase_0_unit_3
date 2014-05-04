@@ -1,0 +1,1 @@
+![My Schema](https://github.com/ClarkGH/phase_0_unit_3/blob/master/week_8_and_9/5_SQL/your_own_db/MyDB.jpeg?raw=true)
